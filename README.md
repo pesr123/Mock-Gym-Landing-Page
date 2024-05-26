@@ -1,4 +1,4 @@
-![hero-img](https://github.com/pesr123/Mock-Gym-Landing-Page/assets/143578378/666f787c-6c5e-40a7-a38f-3de0cbc9e0b0)# odin-landing-page
+# odin-landing-page
 
 Landing Page Project that combines all the things learnt in css and html section of the Odin Project Foundations Course. Making a mock gym landing page.
 
