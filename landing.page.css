@@ -13,17 +13,17 @@ body, html{
 
 
 .hero-section{
+    color: white;
+    background-color: #3e526e;
+    padding: 30px 190px 30px 190px;
     display: flex;
     flex-direction: column;
-    padding: 30px 190px 30px 190px;
-    background-color: #3e526e;
-    color: white;
 }
 
 .header{
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
 }
 
 .logo{
@@ -31,11 +31,11 @@ body, html{
 }
 
 .header-links{
+    width: 290px;
+    margin-top: -10px;
     display: flex;
     justify-content: space-between;
-    width: 290px;
     align-items: center;
-    margin-top: -10px;
 }
 
 .hero-container{
@@ -45,8 +45,8 @@ body, html{
 }
 
 .hero-info{
-    flex: 1;
     margin-right: 15px;
+    flex: 1;
 }
 
 .hero-title{
@@ -62,25 +62,29 @@ body, html{
 .hero-sign-up-button{
     color: white;
     background-color: #3882F6;
-    border: none;
     width: 100px;
     height: 32px;
+    border: none;
     border-radius: 10px;
 }
 
+.hero-sign-up-button:hover{
+    cursor: pointer;
+}
+
 .hero-img{
-   flex: 1;
    width: 200px;
    max-height: 225px;
+   flex: 1;
    object-fit: cover;
    
 }
 
 .social-proof-section{
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 320px;
 }
 
 .member-card-grid{
@@ -93,45 +97,112 @@ body, html{
 .member-card{
     width: 150px;
     height: 220px;
-    text-align: center;
     margin-left: 5px;
     margin-right: 5px;
+    text-align: center;
 }
 
 .member-photo{
     width: 90px;
     height: 100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-width: 3px;
     border-radius: 8px;
     border-color: #3882F6;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
     object-fit: cover;
-    padding: 10px;
 }
 
 .quote-section{
+    height: 300px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 320px;
 }
 
 .quote{
-    text-align: left;
+    color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
-    font-size: 28px;
-    font-style: italic;
     margin-bottom: 0px;
+    font-size: 23px;
+    font-style: italic;
+    text-align: left;
 }
 
 .quote-author{
-    padding-right: 200px;
+    padding-right: 250px;
     text-align: right;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.call-to-action-section{
+    color: white;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-container{
+    width: 80%;
+    height: 110px;
+    max-width: 1000px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.call-to-action-left{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+}
+
+.call-to-action-title{
+    font-weight: bold;
+}
+
+.call-to-action-desciption{
+    font-size: 13px;
+}
+
+.call-to-action-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.call-to-action-sign-up-button{
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: #3882F6;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 7px;
+}
+
+.call-to-action-sign-up-button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    height: 50px;
+    color: white;
+    background-color: #1F2937;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
